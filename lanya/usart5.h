@@ -5,6 +5,7 @@
 #include "sys.h" 
 
 void uart5_init(u32 bound);
+uint8_t UART5_TryReadByte(uint8_t *value);
 void UART5_SendString(char *str);
 void UART5_SendArray(uint8_t *data, uint16_t len);
 void fasong_task_code(void);
