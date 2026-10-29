@@ -1,0 +1,15 @@
+# Keil build products and machine-specific workspace files
+/OBJ/
+*.log
+*.uvguix.*
+*.uvgui.*
+*.bak
+*.bak_*
+*.pyc
+__pycache__/
+
+# OpenMV scripts and backups are maintained separately
+/openmv*/
+/openmv*.py
+/OpenMV*.md
+/_tb6612_img/
